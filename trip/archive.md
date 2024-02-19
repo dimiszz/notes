@@ -48,5 +48,5 @@ Divididos as casas em algumas categorias baseada em número de pessoas máximo: 
 |[Ilhabela](https://abrir.link/ruMrQ)|3|3,5|Sim|Não|Não|9 pessoas|R$819,88|
 |[Ilhabela](https://abrir.link/ctFLf)|4|3,5|Não|Não|Media|Praia, 14 pessoas|R$426,64|
 |[Ilhabela](https://abrir.link/zrtQT)|4|4|Sim|Não|Aquecida|12 pessoas|R$708,33|
-|[Morada da Praia](https://air.tl/MbjicvqZ)|5|2,5|Sim|Não|Aquecida|20 pessoas|R$332,15|
+|[Morada da Praia](https://abrir.link/MkNzX)|5|2,5|Sim|Não|Aquecida|20 pessoas|R$332,15|
 ## 
