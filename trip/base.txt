@@ -1,0 +1,125 @@
+20 pessoas:
+    casa 1-Bertioga
+    piscina privativa(grande)
+    tem ar-condicionada
+    5 quartos
+    4 banheiros e 1 lavabo
+    286 reais por pessoa
+
+    casa 2-Bertioga
+    piscina privativa(media)
+    5 quartos
+    2 banheiros e 1 lavabo
+
+15 pessoas:
+    Casa 1-Ilhabela
+    Piscina privativa(grande)
+    Jacuzzi
+    Condominio fechado
+    6 Quartos
+    5 banheiros    
+    655 reais por pessoa
+
+    Casa 2-Ilhabela
+    piscina privativa(media)
+    4 quartos
+    3 banheiros e 1 lavabo
+
+
+10 pessoas:
+    -Casa 1-Ilhabela
+    Area comum compartilhada
+    173,2 reais por pessoa
+    2 quartos
+    2 banheiros
+
+    -Casa 2-Ubatuba
+    Condominio fechado
+    ate 12 pessoas
+    375,2 reais por pessoa 
+    3 quartos
+    2 banheiros
+
+    -Casa 3-ilhabela
+    ate 12 pessoas
+    408,9 reais por pessoa
+    2 quartos
+    3 banheiros e 1 lavabo
+
+    -Casa 4-Ilhabela
+    Condominio fechado
+    465,7 reais por pessoa
+    3 quartos
+    4 banheiros
+
+    -Casa 5-Ilhabela
+    3 quartos
+    5 camas
+    569,5 reais por pessoa
+    
+    -Casa 6-Ilhabela
+    tem ar-condicionado
+    banheira privativa
+    4 quartos
+    4 banheiros
+    
+6 pessoas:
+    -Casa 1-Ilhabela
+    Ate 8 pessoas
+    523 reais por pessoa
+    tem ar-condicionado
+    tem jacuzzi
+    2 quartos
+    3 banheiros
+    
+    -Casa 2-Ilhabela
+    Ate 8 pessoas
+    520 reais por pessoa
+    piscina privada(pequena)
+    tem ar-condicionado
+    3 quartos
+    4 banheiros
+    
+    -Casa 3-Ilhabela
+    Ate 8 pessoas
+    Piscina privada(pequena)
+    condominio fechado
+    Ar condicionado
+    561 reais por pessoa
+
+
+
+-----------------Casa1
+https://www.airbnb.com.br/rooms/33246803?check_in=2024-07-10&check_out=2024-07-17&source_impression_id=p3_1708231183_6NZNnLeC6DWY%2Biia&previous_page_section_name=1000&federated_search_id=66fcd803-a4b4-4ac4-98be-6c6eeefa272b
+-----------------Casa2
+https://www.airbnb.com.br/rooms/16223757?check_in=2024-07-10&check_out=2024-07-17&source_impression_id=p3_1708239289_4J7Uiwbn8SKNOPXU&previous_page_section_name=1000&federated_search_id=8a46a573-62cf-4c55-b87a-137c5967874e
+-----------------
+https://www.airbnb.com.br/rooms/796981368488074665?check_in=2024-07-10&check_out=2024-07-17&source_impression_id=p3_1708231099_4smivcnaWcMnDGWG&previous_page_section_name=1000&federated_search_id=6fbf8b10-186d-4c47-8b46-0f6f9af12643
+-----------------
+https://www.airbnb.com.br/rooms/22826941?check_in=2024-07-10&check_out=2024-07-17&source_impression_id=p3_1708230928_K8cEObf7sCauC1XM&previous_page_section_name=1000&federated_search_id=bd5e280f-2e32-4479-8e49-627d1a1a14f7
+-----------------
+https://www.airbnb.com.br/rooms/679240112966857325?check_in=2024-07-10&check_out=2024-07-17&source_impression_id=p3_1708230709_W22WOJBJNl6Qa78o&previous_page_section_name=1000&federated_search_id=d0eed4ab-2158-4730-88ab-fc9637bc7518
+-----------------
+https://www.airbnb.com.br/rooms/2005398?adults=16&category_tag=Tag%3A7769&enable_m3_private_room=true&photo_id=1297988687&check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708295805_8e%2F4iIbBurzQhkJ8&previous_page_section_name=1000&federated_search_id=cc9ef244-d06e-4c63-bcbf-f7ecc7da5ab4
+-----------------
+
+-----------------
+
+-----------------
+https://www.airbnb.com.br/rooms/46471192?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708296383_4NGfBTtUWMCT3fBd&previous_page_section_name=1000&federated_search_id=69c2dfa0-4e33-4d95-8ac7-c8828b59c839
+-----------------
+https://www.airbnb.com.br/rooms/42138624?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708296383_9llPEeqK1yWkfNFv&previous_page_section_name=1000&federated_search_id=69c2dfa0-4e33-4d95-8ac7-c8828b59c839
+-----------------
+casona:
+https://www.airbnb.com.br/rooms/32380659?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708296837_RN6Qr2OF%2BvZYDkBb&previous_page_section_name=1000&federated_search_id=daef7baa-cf69-462e-90b3-ad7c2d31d741
+-----------------
+https://www.airbnb.com.br/rooms/47197415?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708297420_m%2BGD1mu%2B5L%2F14kEs&previous_page_section_name=1000&federated_search_id=1a7fe917-7f3d-4d27-959c-4726743e8531
+-----------------
+https://www.airbnb.com.br/rooms/847120515112902586?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708297665_KEzBQyAtI%2BFR7wIm&previous_page_section_name=1000&federated_search_id=1a7fe917-7f3d-4d27-959c-4726743e8531
+-----------------
+https://www.airbnb.com.br/rooms/5691803?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708298053_8BiqW3M9X3dy6Noa&previous_page_section_name=1000&federated_search_id=bd71feb5-4643-449a-9952-38ebb3a026ee
+-----------------
+https://www.airbnb.com.br/rooms/29410261?check_in=2024-06-10&check_out=2024-06-17&source_impression_id=p3_1708298231_o%2FReIJCT13JjNor8&previous_page_section_name=1000&federated_search_id=bd71feb5-4643-449a-9952-38ebb3a026ee&modal=PHOTO_TOUR_SCROLLABLE
+
+
+https://air.tl/MbjicvqZ
