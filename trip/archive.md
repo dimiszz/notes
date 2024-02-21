@@ -62,10 +62,10 @@ Após uma seleção, ficamos com 4 casas sobrando:
 
 Notas do vini e do dimi:
 
-|Casa|Vini|Dimi|
-|-|-|-|
-|Lake house|8,7|8,5
-|Paraíso|9,0|8,5
-|Pedra|8,8|8
-|Banheira|8,9|8,9
-|Pier|8,3|7
+|Casa|Vini|Dimi| Pou | Média
+|-|-|-|-|-|
+|Lake house|8,7|8,5|8,3|8,5
+|Paraíso|9,0|8,5|8,5|8,66
+|Pedra|8,8|8|7,5|8.1
+|Banheira|8,9|8,9|9,3|9.03
+|Pier|8,3|7|7,8|7.7
