@@ -62,7 +62,7 @@ Após uma seleção, ficamos com 4 casas sobrando:
 
 Notas do vini e do dimi:
 
-|Casa|Vini|Dimi| Pou | Média
+|Casa|Dimi|Vini| Pou | Média
 |-|-|-|-|-|
 |Lake house|8,7|8,5|8,3|8,5
 |Paraíso|9,0|8,5|8,5|8,7
