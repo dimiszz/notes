@@ -49,4 +49,12 @@ Divididos as casas em algumas categorias baseada em número de pessoas máximo: 
 |[Ilhabela](https://abrir.link/ctFLf)|4|3,5|Não|Não|Media|Praia, 14 pessoas|R$426,64|
 |[Ilhabela](https://abrir.link/zrtQT)|4|4|Sim|Não|Aquecida|12 pessoas|R$708,33|
 |[Morada da Praia](https://abrir.link/MkNzX)|5|2,5|Sim|Não|Aquecida|20 pessoas|R$332,15|
-## 
+
+Após uma seleção, ficamos com 4 casas sobrando:
+
+|Local|Quartos|Banheiros|Ar Cond.|Condominio|Piscina|Adicionais|Preço|
+|-|-|-|-|-|-|-|-|
+|[Ubatuba](https://abrir.link/xLapr)|3|2|Não|Sim|Área Comum|Lago perto 6 pessoas|R$375,20|
+|[Urubu](https://abrir.link/TTETa)|6|5|Não|Não|Hidro, Spa|14 pessoas|R$1305,50|
+|[Ilhabela](https://abrir.link/ctFLf)|4|3,5|Não|Não|Media|Praia, 14 pessoas|R$426,64|
+|[Ilhabela](https://abrir.link/zrtQT)|4|4|Sim|Não|Aquecida|12 pessoas|R$708,33|
