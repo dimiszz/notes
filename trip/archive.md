@@ -59,3 +59,13 @@ Após uma seleção, ficamos com 4 casas sobrando:
 |Pedra|[Ilhabela](https://abrir.link/ctFLf)|4|3,5|Não|Não|Media|Praia, 14 pessoas|R$426,64|
 |Banheira|[Ilhabela](https://abrir.link/zrtQT)|4|4|Sim|Não|Aquecida|12 pessoas|R$708,33|
 |Pier|[Ilhabela](https://abrir.link/ruMrQ)|3|3,5|Sim|Não|Não|9 pessoas|R$819,88|
+
+Notas do vini e do dimi:
+
+|Casa|Vini|Dimi|
+|-|-|-|
+|Lake house|8,7|8,5
+|Paraíso|9,0|8,5
+|Pedra|8,8|8
+|Banheira|8,9|8,9
+|Pier|8,3|7
