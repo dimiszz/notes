@@ -1,3 +1,5 @@
+from math import ceil
+
 def media(a):
     mean = 0
     count = 0
@@ -7,19 +9,29 @@ def media(a):
         count += 1
         mean += float(i)
     mean /= count
-    print(mean)
+    print(f"{mean:.2f}")
 
+def process_file(file_path, starts_with):
+    a = []
+    with open(file_path, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+        for line in lines:
+            if line.startswith(starts_with):
+                a = line.split("|")
+    numeric_data = [item for item in a if item.replace(".", "", 1).isdigit()]
+    return numeric_data
 
+arc = "archive.md"
 
+names = [
+    "|Lake house|",
+    "|Paraíso|",
+    "|Pedra|",
+    "|Banheira|",
+    "|Pier|",
+]
 
-lake_house = "8.7|8.5|8.3|5|9.7|7|9|8".split("|")
-paraiso = "9.0|8.5|8.5|8.5|9.2|6|8.5|8".split("|")
-pedra = "8.8|8|7.5|10|8.7|6|6|6".split("|")
-banheira = "8.9|8.9|9.3|9|9|8|9|9".split("|")
-pier = "8.3|7|7.8".split("|")
-
-media(lake_house)
-media(paraiso)
-media(pedra)
-media(banheira)
-media(pier)
+for name in names:
+    processing = process_file(arc, name)
+    #print(processing)
+    media(processing)

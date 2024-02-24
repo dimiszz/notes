@@ -62,16 +62,29 @@ Após uma seleção, ficamos com 4 casas sobrando:
 
 Notas
 
-|Casa|Dimi|Vini| Pou |Aaron|Leo|Henry|Biscoito|Bzao| Média
-|-|-|-|-|-|-|-|-|-|-|
-|Lake house|8.7|8.5|8.3|5|9.7|7|9|8|8
-|Paraíso|9.0|8.5|8.5|8.5|9.2|6|8.5|8|8.3
-|Pedra|8.8|8|7.5|10|8.7|6|6|6|7.6
-|Banheira|8.9|8.9|9.3|9|9|8|9|9|8.8
-|Pier|8.3|7|7.8||||||7.7
+|Casa|Dimi|Vini| Pou |Aaron|Leo|Henry|Biscoito|Bzao|Saka|Zangado|Média
+|-|-|-|-|-|-|-|-|-|-|-|-|
+|Lake house|8.7|8.5|8.3|5|9.7|7|9|8|8|10|8
+|Paraíso|9.0|8.5|8.5|8.5|9.2|6|8.5|8|0|10|7.4
+|Pedra|8.8|8|7.5|10|8.7|6|6|6|9.5|10|7.8
+|Banheira|8.9|8.9|9.3|9|9|8|9|9|9|10|8.9
+|Pier|8.3|7|7.8|||||||10|8.28
 
 
-5|9.7|7|9|8|
+<!-- 5|9.7|7|9|8|
 8.5|9.2|6|8.5|8|
 10|8.7|6|6|6|
 9|9|8|9|9|
+
+Saka
+9
+9.5
+0
+8
+
+Banheira
+Pedra
+Paraiso
+Lake House -->
+
+
