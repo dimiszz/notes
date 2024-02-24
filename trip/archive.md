@@ -60,12 +60,18 @@ Após uma seleção, ficamos com 4 casas sobrando:
 |Banheira|[Ilhabela](https://abrir.link/zrtQT)|4|4|Sim|Não|Aquecida|12 pessoas|R$708,33|
 |Pier|[Ilhabela](https://abrir.link/ruMrQ)|3|3,5|Sim|Não|Não|9 pessoas|R$819,88|
 
-Notas do vini e do dimi:
+Notas
 
-|Casa|Dimi|Vini| Pou | Média
-|-|-|-|-|-|
-|Lake house|8,7|8,5|8,3|8,5
-|Paraíso|9,0|8,5|8,5|8,7
-|Pedra|8,8|8|7,5|8.1
-|Banheira|8,9|8,9|9,3|9
-|Pier|8,3|7|7,8|7.7
+|Casa|Dimi|Vini| Pou |Aaron|Leo|Henry|Biscoito|Bzao| Média
+|-|-|-|-|-|-|-|-|-|-|
+|Lake house|8.7|8.5|8.3|5|9.7|7|9|8|8
+|Paraíso|9.0|8.5|8.5|8.5|9.2|6|8.5|8|8.3
+|Pedra|8.8|8|7.5|10|8.7|6|6|6|7.6
+|Banheira|8.9|8.9|9.3|9|9|8|9|9|8.8
+|Pier|8.3|7|7.8||||||7.7
+
+
+5|9.7|7|9|8|
+8.5|9.2|6|8.5|8|
+10|8.7|6|6|6|
+9|9|8|9|9|
