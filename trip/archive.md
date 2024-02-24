@@ -6,16 +6,16 @@ Estamos decidindo um próximo destino de viagem para os amigões! Aqui temos a l
 
 | Amigões | obrigado |
 | - | - |
-| ✅ Vini |☢️ Zangado |
+| ✅ Vini |✅ Zangado |
 | ✅ Pou | ✅ Biscoito | 
 | ✅ Leo | ✅ Aaron |
-| ❌ Henry |☢️ Bergamo | 
-| ☢️ Lupe | ☢️ Wallace |
+| ✅ Henry |✅ Bergamo | 
+| ✅ Lupe | ☢️ Wallace |
 | ☢️ Saka | ☢️ Natalia | 
 | ☢️ Gugao |☢️ Nicole |
 | ✅ Dimi |✅ Camyla |
-| ☢️ Raul |☢️ Mel |
-| ☢️ Pzao |☢️ Ana |
+| ❌ Raul |❌ Mel |
+| ❌ Pzao |❌ Ana |
 | ❌ Joyjoy||
 
 * Para marcar quem é provável de ir ✅
