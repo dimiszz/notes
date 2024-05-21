@@ -1,4 +1,4 @@
-#include <stdlib.h>;
+#include <stdio.h>;
 
 #define true 1
 #define false 0 
@@ -44,6 +44,25 @@ int numeroDeVerticesGrafo(Grafo *g){
     return g->numVertices;
 }
 
+int numeroDeArestasGrafo(Grafo *g){
+    if (g == NULL || g->matriz == NULL) return -1;
+    return g->numArestas;
+}
+
+void exibeGrafo(Grafo *g){
+    if(g == NULL) return;
+    int x, y;
+    printf("Imprimindo grafo... vertices: %i; arestas: %i", g->numVertices, g->numArestas);
+    for(x=0; x<g->numVertices; x++) printf("\t%5i", x);
+    print("\n");
+    for(x=0; x<g->numVertices; x++){
+        printf("%i", x);
+        for(y=0; y<g->numVertices; y++){
+            printf("\t%5i", g->matriz[x][y]);
+        }
+        printf("\n");
+    }
+}
 
 int main(){
 
