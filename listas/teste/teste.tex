@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usepackage{lipsum}
+
+% Definindo um novo comando para desenhar as linhas
+\newcommand{\drawlines}[1][20]{%
+  \begin{tikzpicture}[overlay, remember picture]
+    \foreach \i in {1,...,#1} {%
+      \draw[gray!30] (0,\i*0.8\baselineskip) -- (\paperwidth,\i*0.8\baselineskip);
+    }
+  \end{tikzpicture}%
+}
+
+\begin{document}
+
+% Desenhando as linhas
+\drawlines[30] % 30 linhas de escrita
+
+\section*{Título}
+\lipsum[1]
+
+\drawlines[20] % Mais 20 linhas de escrita
+\section*{Outro Título}
+\lipsum[2]
+
+\end{document}
