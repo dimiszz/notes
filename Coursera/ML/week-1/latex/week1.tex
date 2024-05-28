@@ -4,33 +4,41 @@
 \usepackage{amsmath}
 \pagenumbering{gobble}
 \usepackage{listings}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\graphicspath{ {./images/} }
 
 
 \begin{document}
 Objetivo do curso: compreensão básica de modelos de aprendizado de máquina.
 
 \section{O que é Machine Learning?}
-É uma área relativamente antiga que é estudada há várias décadas
+É uma área relativamente antiga que é estudada há várias décadas. O que chamou atenção recentemente foram as boas performances em algumas tarefas de grande interesse. Entre elas, a análise de imagens.
 
-O que chamou atenção recentemente foram as performances em algumas tarefas interessantes.
+\textbf{Convolutional Neural Network} foi usado em escala pela primeira vez em 2012, o que mostrou sua performance. Desde lá, ela apenas melhorou. O \textbf{Deep Learning} está passando a performance humana em alguns casos na análise de imagens.
 
-Uma delas foi a análise de imagens.
+Outra área que o \textbf{Machine Learning} foram os jogos. As maquinas conseguem entender e performar melhor que um humano nos jogos. Por exemplo, um dos melhores jogadores de \textit{Go} perdeu para um humano.\\
 
-\textbf{Convolutional Neural Network} foi usado em escala pela primeira vez em 2012, o que mostrou sua performance. Desde lá, sua performance apenas melhorou. O \textbf{DeepLearning} está passando a performance humana em alguns casos na análise de imagens.
+Como realmente funciona? Basicamente, nós vamos ensinar uma máquina a aprender. Damos exemplos para ela (amostras de dados), e o que gostaríamos que ela concluísse com os dados.
 
-Outra área que o \textit{Machine Learning} foram os jogos. As maquinas conseguem entender e performar melhor que um humano nos jogos. Um dos melhores jogadores de \textit{Go} perdeu para um humano.\\
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{linear-view}
+\caption{Ordem das ações de Machine Learning.}
+\end{figure}
 
-Como realmente funciona?
+Para treinar, damos vários exemplos nesse formato: esse conjunto de dados $x_1$ resulta nesse $y_1$, um outro conjunto $x_2$ em $y_2$ e assim por diante.
 
-Nós vamos ensinar uma máquina a aprender.
+Para cada $x_i$ que ele receber, deve retornar o respectivo $y_i$; Porém, se passarmos um conjunto que não foi contemplado, ele deve ser capaz de prever qual será o resultado.
 
-Damos exemplos para ela (amostras de dados), e o que gostaríamos que ela concluísse com os dados.
+Queremos que ele aprenda os parâmtros do modelo matemático e predizir o $y_i$ dado o $x_i$.
 
-Para treinar, damos vários exemplos: esse conjunto de dados $x_1$ resulta nesse $y_1$, para $x_2$, $y_2$, e assim por diante.
-
-Para cada $x_i$ que dermos para ele, ele deve retornar o respectivo $y_i$; Porém, se passarmos um conjunto que não foi contemplado, ele deve ser capaz de prever qual será o resultado.
-
-Queremos que ele aprenda os parâmtros do modelo matemático e predizir o que foi pedido.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{exemplo-ml}
+\caption{Exemplo de Machine Learning para identificar tumores benignos e malignos.}
+\end{figure}
 
 \subsection{Regressão Lógica}
 
@@ -42,6 +50,12 @@ Vamos considerar um dos algorítmos mais básicos: \textbf{Logistic Regression}
 
 O objetivo do \textbf{Machine Learning} é que, dado $N$ exemplos, data $x$ e outcome $y$, gostaríamos de construir modelo preditivo que é capaz de prever $y$ dado $x$.\\
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{exemplo-logistic-regression}
+\caption{Exemplo Logistic Regression.}
+\end{figure}
+
 \textbf{Linear Predictive Model}: $X_{i1}$ é o primeiro componente do vetor $X$, $X_{i2}$ o segundo e assim por diante até $X_{iM}$.
 
 Vamos multiplicar cada componente do vetor $X$ por um parâmtro e somamos um bias:
@@ -49,18 +63,29 @@ $$(b_1 \times x_{i1}) + (b_2 \times x_{i2}) + \dots + (b_M \times x_{iM}) + b_0 
 
 Isso é um mapeamento dos dados $X_i$ para um número $Z_i$.
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{exemplo-chuva}
+\caption{Conjunto de dados exemplo para predizir a chuva.}
+\end{figure}
+
 Muitas vezes é melhor dar uma chance se vai chover ou não em um dia do que afirmar algo. Para fazer isso, usamos uma \textbf{Logistic Function} notado por $\sigma$:
 $$ p(y_i = 1 | x_i) = \sigma (z_i) $$
-$z_i$: multiplicação dos parâmetros dos dados $X$ com os parâmtros $b_1, b_2$ até $b_M$
+$z_i$: multiplicação dos parâmetros dos dados $X$ com os parâmtros $b_1, b_2$ até $b_M$.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{sigmoid_function}
+\caption{
+\centering
+\textbf{Sigmoid Function} é uma maneira de converter previsões para uma perspectiva probabilística.}
+\end{figure}
+
 
 Essa função, a \textbf{Sigmoid Function} $p(y_i = 1 | x_i) = \sigma(z_i)$, sempre está entre 0 e 1. Quando $z_i$ é grande, como 5 ou 6, a função converte ele para um número perto de 1. Quando é pequeno, -1, -2, -4, converte para perto de 0.
 
-
-\textbf{Sigmoid Function} é uma maneira de converter previsões para uma perspectiva probabilística.
-
-
 Os parâmetros $b$ dizem o quão importante as variáveis são para a predição.
-
 
 É um modelo bem simples; é apenas uma combinação linear de multiplicação das variáveis observados pelos parâmetros associados, somando-os, mapenado eles para uma variável $z_i$ e, então, executando-os por meio de uma função Sigmoid Function.
 
@@ -73,12 +98,18 @@ Os conceitos básicos da \textbf{Logistic Regression} são bastante usados em De
 
 \textbf{Logistic Regression} é um processo de modelar uma probabilidade discreta de um resultado dado os inputs. O mais comum é um binário, sim ou não.
 
+
 \subsection{Interpretação da Logistic Regression}
 
 É um dos conceitos mais simples de Machine Learning.
 
 Exemplo para análise de escrita humana.
 Dada uma foto de uma letra, queremos que a máquina diga que número que é.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{8-traduzido}
+\caption{8 analisado pixel a pixel.}
+\end{figure}
 
 Transformamos a imagem em uma matriz de pixels, onde cada um deles possue um peso em um espaço. Pegamos esses pixels e eles são o vetor $X$ que foi conversado anteriormente.
 
@@ -88,8 +119,9 @@ Os dados de treinamento são as imagens e o que representam. Seus pixels serão 
 Vamos ponderar os pixels multiplicando pelos parâmetros $b_1$ até $b_M$, somamos, conseguimos $Z$, passamos esse valor pela \textbf{Sigmoid Function} e conseguimos um numero entre $0$ e $1$, que diz a probabilidade de ele ser $0$ ou $1$.
 
 \begin{center}
-O que queremos dizer com \textit{learning} é inferir o conjunto de parâmetros $b_0$ a $b_M$
+O que queremos dizer com \textit{learning} é inferir o conjunto de parâmetros $b_0$ a $b_M$.
 \end{center}
+
 
 Esse somatório matemático pode ser representado da seguinte maneira:
 \[ \sum_{m=1}^{M} x_{im} \times b_m \]
@@ -102,6 +134,19 @@ Portanto, temos o valor de nosso $z_i$ dado por:
 
 Os parâmetros do modelo b são como um filtro para os dados.
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{filtro-sigmound}
+\caption{À esquerda, o que foi recebido. À direita, o filtro que será aplicado.}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{resultado}
+\caption{\centering Resultado do filtro; como há mais partes em azul (negativas) o produto interno $x_i \odot b$ resulta em um valor bem próximo de 0.}
+\end{figure}
+
 Esse modelo será usado como base para outros mais complexas como o Deep Learning.
 
 \subsection{Motivação para Multilayer Perception}
@@ -112,8 +157,19 @@ Qual é o problema com esse modelo?
 
 Um ótimo modelo quando há diferença entre uma classe 0 e 1, que podem ser separados por uma linha. Ele está resolvendo um problema binário.
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{bom-para-logistic-regression}
+\caption{Situação em que é bom usar Logistic Regression.}
+\end{figure}
+
 Problemas as classes 1 e 0 não podem ser separados por uma linha não podem ser resolvidos pelo modelo em questão.
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{ruim-para-logistic-regression}
+\caption{Situação em que é ruim usar Logistic Regression.}
+\end{figure}
 
 \textbf{Logistic Regression} somente é efetivo quando um classificador linear pode ser facilmente distinguido entre classes 1 e 0.
 
@@ -140,22 +196,30 @@ print(A[:, 1]) # index entire second column
 C = A * 2 # multiplies every elemnt of A by two
 D = A * B # elementwise multiplication rather than matrix multiplication
 E = np.transpose(B)
-F = np.matmul(A, E) # performs matrix multiplication -- could also use np.dot()
-G = np.matmul(A, x) # performs matrix-vector multiplication -- again could also use np.dot()
+F = np.matmul(A, E) # performs matrix multiplication 
+# -- could also use np.dot()
+G = np.matmul(A, x) # performs matrix-vector multiplication 
+# -- again could also use np.dot()
 
 # Broadcasting Examples
-H = A * x # "broadcasts" x for element-wise multiplication with the rows of A
+H = A * x # "broadcasts" x for element-wise 
+# multiplication with the rows of A
 print(H)
 J = B + x # broadcasts for addition, again across rows
 print(J)
 
 X = np.array([[3, 9, 4], [10, 2, 7], [5, 11, 8]])
-all_max = np.max(X) # gets the maximum value of matrix X
-column_max = np.max(X, axis=0) # gets the maximum in each column -- returns a rank-1 array [10, 11, 8]
-row_max = np.max(X, axis=1) # gets the maximum in each row -- returns a rank-1 array [9, 10, 11]
+all_max = np.max(X) 
+# gets the maximum value of matrix X
+column_max = np.max(X, axis=0) 
+# gets the maximum in each column -- returns a rank-1 array [10, 11, 8]
+row_max = np.max(X, axis=1) 
+# gets the maximum in each row -- returns a rank-1 array [9, 10, 11]
 
-# In addition to max, can similarly do min. Numpy also has argmax to return indices of maximal values
-column_argmax = np.argmax(X, axis=0) # note that the "index" here is actually the row the maximum occurs for each column
+# In addition to max, can similarly do min. Numpy also has argmax 
+to return indices of maximal values
+column_argmax = np.argmax(X, axis=0) # note that the "index" here is 
+# actually the row the maximum occurs for each column
 
 total_sum = np.sum(X)
 column_sum = np.sum(X, axis=0)
@@ -163,8 +227,9 @@ row_sum = np.sum(X, axis=1)
 
 X = np.arange(16) # makes a rank-1 array of integers from 0 to 15
 X_square = np.reshape(X, (4, 4)) # reshape X into a 4 x 4 matrix
-X_rank_3 = np.reshape(X, (2, 2, 4)) # reshape X to be 2 x 2 x 4 --a rank-3 array
-                                    # consider as two rank-2 arrays with 2 rows and 4 columns
+X_rank_3 = np.reshape(X, (2, 2, 4)) 
+# reshape X to be 2 x 2 x 4 --a rank-3 array
+# consider as two rank-2 arrays with 2 rows and 4 columns
 
 \end{lstlisting}
 
