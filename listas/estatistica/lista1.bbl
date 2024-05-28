@@ -5,7 +5,11 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{degroot2002probability}
-M.~H. DeGroot, Probability and statistics, (No Title) (2002).
+\bibitem{degroot2012probability}
+M.~DeGroot, M.~Schervish, Probability and Statistics, Addison-Wesley, 2012.
+
+\bibitem{devore2014probabilidade}
+J.~L. Devore, M.~T.~A. Cordeiro, Probabilidade e estat{\'\i}stica: para
+  engenharia e ci{\^e}ncias, Cengage Learning Edi{\c{c}}{\~o}es Ltda., 2014.
 
 \end{thebibliography}

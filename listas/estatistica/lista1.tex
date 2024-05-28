@@ -3,16 +3,17 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
 \pagenumbering{gobble}
+
 \begin{document}
-\title{Lista Estatística}
-\date{}
-\maketitle
+	\begin{center}
+	\textbf{Revisão Estatística}
+	\end{center}
 \textbf{Exercícios}.
 Para responder, é interessante dar exemplos.
 \begin{enumerate}
 \item O que é estatística?
 
-\item O que é experimento? Quais suas limitações?
+\item O que é experimento? Quais suas limitações? 
 \item O que é evento? Comente sobre 3 de suas propriedades.
 \item Defina espaço amostral e a sua diferença entre espaço mensurável.
 \item O que é probabilidade? Comente sobre 5 propriedades.
@@ -35,20 +36,37 @@ Para responder, é interessante dar exemplos.
 \item O que são eventos condicionalmente independentes?
 \item Dê outra definição para $Pr(A\,|\,B)$.
 \item O que é uma Variável Aleatória?
-\item Fale qual distribuição encaixa em cada evento e explique o porque:
+\item Considere que ao escolher um aluno do segundo ano na EACH, há uma chance de 0,8 desse aluno saber Cálculo II. Se um aluno sabe Cálculo II, existe uma chance de 0,9 dele ser aprovado em Estatística, enquanto se um aluno não sabe Cálculo II, existe uma chance de 0,8 dele ser reprovado em Estatística. Considere um aluno reprovado em Estatística, qual é a chance dele saber Cálculo II?
+\item Dado um baralho de 52 cartas, fale qual distribuição encaixa em cada evento e justifique:
 	\begin{enumerate}
-	\item retirar $n$ cartas, sem reposição. 
-	\\V.A.: Quantidade de cartas de copas.
-	
-	\item  Retirar uma carta do baralho. 
-	\\V.A.: 1 se a carta é A, 2 se a carta é um 2, até que 13 se a carta é um K.
-	\item Retire uma carta do baralho. 
-	\\V.A.: 1 se a carta é de copas, 0 caso contrário.
-	
+	\item \textbf{Experimento:} Retirar $n$ cartas, SEM reposição. 
+	\\\textbf{Variável aleatória:} Quantidade de cartas de copas.
+	\item \textbf{Experimento:} Retirar uma carta do baralho. 
+	\\\textbf{Variável aleatória:} 1 se a carta é A, 2 se a carta é um 2, e assim por diante até 13 se a carta é um K.
+	\item \textbf{Experimento:} Retire uma carta do baralho. 
+	\\\textbf{Variável aleatória:} 1 se a carta é de copas, 0 caso contrário.
+	\item \textbf{Experimento:} Retirar cartas $n$ vezes COM repetição.
+	\\\textbf{Variável aleatória:} Quantidade de copas.
+	\item \textbf{Experimento:} Retire cartas, uma por vez COM reposição, até obter $k$ cartas de copas.
+	\\\textbf{Variável aleatória:} Quantidade de cartas retiradas.
+	\item\textbf{Experimento:} Retire cartas, uma por vez COM reposição, at´e obter k cartas de copas.
+	\\\textbf{Variável aleatória:} Quantidade de cartas retiradas.
 	\end{enumerate}
+\item O que é esperança?
+\item Calcule a esperança e a variância das distribuições encontradas no exercício 18.
+\item Comente sobre a distribuição de Poisson.
+\item Defina a diferença entre uma Variável Aleatória Contínua e Discreta.
+\item Explique a diferença entre uma p.d.f. e uma c.d.f.
+\item Calcule a p.d.f, c.d.f., Esperança, Variância, mediana e amplitude interquartil das seguintes distribuições:
+	\begin{enumerate}
+	\item Uniforme Contínua - $f(x) = \frac{1}{b-a}$
+	\item Exponencial - $f(x)=\lambda e^{-\lambda x}$
+	\end{enumerate}
+\item Comente sobre a distribuição bivariada.
 \end{enumerate}
 
-\bibliographystyle{elsarticle-num}
-\bibliography{mybibfile}
+%\bibliographystyle{elsarticle-num}%
+%\bibliography{mybibfile}%
+
 
 \end{document}
