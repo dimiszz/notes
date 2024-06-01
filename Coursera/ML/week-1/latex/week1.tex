@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 
+
 \graphicspath{ {./images/} }
 
 
@@ -612,8 +613,56 @@ Determine parameters that minimize the sum over loss
 
 \end{center}
 
+\subsection{Aplicações em imagens reais}
+
+Enquanto analisamos dados reais, como os filtros se parecem?
+
+\textbf{IMG1 AQUI}
+
+Agora, ao invés de pensarmos em formatos, pensamos em filtros. Nas pequenas imagens no topo, vemos cores claras e escuras. Elas denotam valores positivos e negativos, respectivamente. Elas são caracterizadas por versões rotacionadas de uma forma fundamental que consiste em 2 conjuntos de pixels, um claro e um escuro, que estão próximos um do outro (alinhados).
+
+\textbf{IMG2 AQUI}
+
+Eles são manifestados em ciclos de uma onda senoidal rotacionados em diferentes ângulos. São formatos bem fundamentais na matemática, são chamados de \textbf{Gabor Functions}.
+
+Esses filtros fundamentais que a CNN encontrou correspondem muito de perto ao que estudos biológicos indicam ser os elementos mais fundamentais que o sistema visual de um mamífero pode reconhecer.
+
+Isso não era exigido, mas foi interessante observar que, pelo menos nessa primeira camada, a CNN parece se comportar de forma consistente com o sistema visual dos mamíferos.
+
+Cada um dos filtros da segunda camada representa versões mais sofisticadas  dos filtros da primeira camada. Podemos ver alguns olhos sendo representados em alguns lugares.
+
+Olhando para a terceira camada, alguns dos filtros parecem esboços de rostos.
+
+O que é interessante de observar é que, esses filtros aprendidos inteiramente com base nos dados, os filtros da primeira camada correpondem aos blocos de construção fundamentais, o que parece ser consistente com estudos biológicos. Na segunda camada, temos uma versão mais sofisticada da primeira, com coisas como olhos. Na camada mais alta, mais sofisticada ainda, temos esboços de rostos. É assim que esses filtros aprendem com imagens reais.
+
+\subsection{Aplicação na prática}
+
+Qual é o desempenho dessa tecnologia em dados reais em escala maciça?
+
+Em 2013, houve desenvolvimentos significativos no Deep Learning, causado pela união da CNN, o grande poder computacional e a quantidade massiva de dados (ImageNet Dataset).
+
+\textbf{IMG3 AQUI}
+
+\textbf{ImageNet Dataset}: 1000 classes de imagens, 1000 exemplos de imagens para treinamento de cada classe resultando em aproximadamente 1.2 milhões delas. São todas imagens reais.
 
 
+\textbf{IMG4 AQUI}
+
+Também temos uma máquina ganhando pela primeira vez de um campeão mundial de Go, um jogo extremamente mais complexo que xadrez.
+
+Outro ponto extremamente interessante é uma CNN que consegue descrever o que está acontecendo na imagem. Uma combinação entre análise de texto e imagem. Long-Short Term Memory é usado para a análise de texto nesse caso.
+
+Essas aplicações podem ser extendidas para pontos mais críticos na sociedade, como análise de raio-x, diagnóstico dado sintomas, etc.
+
+\subsection{Learning e Transfer Learning}
+
+Uma pergunta que fica é: os parâmetros que conseguimos encontrar usando uma base de dados como ImageNet pode er reutilizado para análise de imagens médicas?
+
+Um dos pontos que fez o Deep Learning ser bastante eficaz é o acesso massivo à imagens com rótulos. O ImageNet é um exemplo disso.
+
+Para isso funcionar com diagnósticos médicos, precisaríamos de milhões de imagens dermatológicas que fossem rotuladas por médicos, com vários aspectos de doenças de pele. Isso seria muito demorado e caro.
+
+Foi descoberto que é possível pegar uma Deep Neural Network e seus parâmetros, projetada para o ImageNet, e transferi-los quase totalmente para aplicações.
 
 
 \end{document}
