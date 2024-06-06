@@ -1,0 +1,52 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[portuguese]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\pagenumbering{gobble}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\begin{document}
+
+\begin{enumerate}
+
+\item Suponha que $X_1, \dots , X_n$ formem uma amostra aleatória de uma distribuição com a seguinte p.d.f:
+
+\[ 
+f(x;\theta) = 
+\begin{cases}\frac{\theta-1}{x^{\theta}} &\, \text{para } x \geq 1\\
+0 &\, \text{caso contrário}
+\end{cases}
+\]
+Também, suponha que o valor de $\theta > 1$ é desconhecido.
+
+\begin{enumerate}
+ 
+\item Determine o M.L.E. de $\theta$.
+\vspace{4cm}
+\item Suponha uma outra variável aleatória $Y = \log \, X $ e foi observada a seguinte amostra: 0.2; 0.5; e 0.7. Utilize o estimador do item (a) e determine o valor de $\theta$.
+\vspace{4cm}
+\end{enumerate}
+
+\item Considere uma ÚNICA amostra X da seguinte distribuição:
+\[ 
+f(x;\theta) = 
+\begin{cases}\frac{2\theta x + 1}{\theta + 1} &\, \text{para } 0 < x < 1\\
+0 &\, \text{caso contrário}
+\end{cases}
+\]
+Onde $\theta \in [0, 10]$ é desconhecido.
+
+\begin{enumerate}
+\item Calcule o M.L.E de $\theta$.
+
+\vspace{4cm}
+
+\item Calcule o estimador de $\theta$ usando o Método dos Momentos.
+\vspace{4cm}
+
+\end{enumerate}
+
+\end{enumerate}
+\end{document}
